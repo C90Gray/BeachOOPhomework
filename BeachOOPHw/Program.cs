@@ -10,6 +10,11 @@ namespace BeachOOPHw
     {
         static void Main(string[] args)
         {
+            Beach loc1 = new Beach();
+            Console.WriteLine("What is your eye color?");
+            string color = Console.ReadLine().ToLower();
+            loc1.GetBeachLocation(loc1.SetEyeValue(color));
+
         }
     }
 }
